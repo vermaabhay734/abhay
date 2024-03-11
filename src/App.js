@@ -1,10 +1,24 @@
 import './App.css';
+import styled, { ThemeProvider } from 'styled-components';
+import { darkTheme } from './utils/Themes';
+import Navbar from './components/Navbar';
+import Hero from './components/HeroSection';
+import Skills from './components/Skills';
+import Education from './components/Education';
+
 
 function App() {
   return (
-    <div className="App">
-      Portfolio
-    </div>
+    <ThemeProvider theme={darkTheme}>
+      <Navbar />
+      <Body>
+        <Hero />
+        <Wrapper>
+          <Skills />
+          <Education />
+        </Wrapper>
+      </Body>
+    </ThemeProvider>
   );
 }
 
