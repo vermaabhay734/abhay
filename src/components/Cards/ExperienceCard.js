@@ -120,27 +120,27 @@ const Date = styled.div`
 `
 
 
-const Skills = styled.div`
-    width: 100%;
-    display: flex;
-    gap: 12px;
-    margin-top: -10px;
-`
+// const Skills = styled.div`
+//     width: 100%;
+//     display: flex;
+//     gap: 12px;
+//     margin-top: -10px;
+// `
 
-const ItemWrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-`
+// const ItemWrapper = styled.div`
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 8px;
+// `
 
-const Skill = styled.div`
-    font-size: 15px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 99};
-    @media only screen and (max-width: 768px){
-        font-size: 12px;
-    }
-`
+// const Skill = styled.div`
+//     font-size: 15px;
+//     font-weight: 400;
+//     color: ${({ theme }) => theme.text_primary + 99};
+//     @media only screen and (max-width: 768px){
+//         font-size: 12px;
+//     }
+// `
 
 
 
@@ -156,21 +156,22 @@ const ExperienceCard = ({ experience }) => {
                 </Body>
             </Top>
             <Description>
-                {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
-
-                }
+                <Span>
+                    {experience.desc.map((desc, index) => (
+                    <p key={index}>{desc}</p>
+                ))}
+                </Span>
                 {experience?.skills &&
                     <>
                         <br />
-                        <Skills>
+                        {/* <Skills>
                             <b>Skills:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
                                     <Skill>• {skill}</Skill>
                                 ))}
                             </ItemWrapper>
-                        </Skills>
+                        </Skills> */}
                     </>
                 }
             </Description>
