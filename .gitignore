@@ -6,7 +6,7 @@
 .pnp.js
 
 # data
-/src/data
+# /src/data
 /src/images
 
 # testing
