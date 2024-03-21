@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/abhay/static/css/main.bf538fe7.css",
+    "main.js": "/abhay/static/js/main.f2be67ea.js",
+    "static/media/HeroImage.jpg": "/abhay/static/media/HeroImage.2641c842c62e3b520570.jpg",
+    "index.html": "/abhay/index.html",
+    "main.bf538fe7.css.map": "/abhay/static/css/main.bf538fe7.css.map",
+    "main.f2be67ea.js.map": "/abhay/static/js/main.f2be67ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.f2be67ea.js"
+  ]
+}
