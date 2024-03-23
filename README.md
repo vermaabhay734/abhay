@@ -46,12 +46,12 @@ Let's chat! Whether you want to discuss code, collaborate on a project, or just 
 Feel free to reach out via LinkedIn or GitHub. Let's create something awesome together! 🤝
 
 ## Portfolio Snapshot
-![Portfolio Snapshot](../abhay/src/images/Portfolio%20Snapshot/Hero%20Section.png)
-![Portfolio Snapshot](../abhay/src/images/Portfolio%20Snapshot/Skills.png)
-![Portfolio Snapshot](../abhay/src/images/Portfolio%20Snapshot/Exp.png)
-![Portfolio Snapshot](../abhay/src/images/Portfolio%20Snapshot/Edu.png)
-![Portfolio Snapshot](../abhay/src/images/Portfolio%20Snapshot/Contact.png)
-![Portfolio Snapshot](../abhay/src/images/Portfolio%20Snapshot/Footer.png)
+![Portfolio Snapshot](./src/images/Portfolio%20Snapshot/Hero%20Section.png)
+![Portfolio Snapshot](./src/images/Portfolio%20Snapshot/Skills.png)
+![Portfolio Snapshot](./src/images/Portfolio%20Snapshot/Exp.png)
+![Portfolio Snapshot](./src/images/Portfolio%20Snapshot/Edu.png)
+![Portfolio Snapshot](./src/images/Portfolio%20Snapshot/Contact.png)
+![Portfolio Snapshot](./src/images/Portfolio%20Snapshot/Footer.png)
 
 
 ---
