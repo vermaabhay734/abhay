@@ -10,10 +10,10 @@ Welcome to my portfolio! This README provides an overview of my skills, projects
 5. [Portfolio Snapshot](#portfolio-snapshot)
 
 ## Introduction 👋
-Hey there! I'm Abhay Verma, a passionate web developer based in Noida, Uttar Pradesh, India. My mission? Crafting pixel-perfect websites that make users go "Wow!" 🌟
+Hey there! I'm Abhay Verma, a passionate web developer. 
+My mission? Crafting pixel-perfect websites that make users go "Wow!" 🌟
 
 - **Name**: Abhay Verma
-- **Location**: Noida, Uttar Pradesh, India
 - **LinkedIn**: [Connect with me](https://www.linkedin.com/in/vermaabhay734/)
 - **GitHub**: [Check out my GitHub](https://github.com/vermaabhay734)
 - **Portfolio**: [View live](https://vermaabhay734.github.io/abhay/)
