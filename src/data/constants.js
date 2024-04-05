@@ -269,41 +269,39 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    title: "Pi_Kart",
+    date: "Apr 2021",
     description:
-      "",
+      "Pi-Kart Web app, powered by Python and Django, offers seamless e-commerce experience. Manage products, track orders, and handle feedback. Secure PayPal gateway for smooth transactions. Easy login, shopping, and logout for users.",
     image:
-      "",
+      "https://raw.githubusercontent.com/vermaabhay734/abhay/master/src/images/Portfolio%20Snapshot/Contact.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "Python",
+      "Django",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "BootStrap",
+      "PostgreSQL",
+      "Postman",
+      "Git"
     ],
     category: "web app",
-    github: "",
+    github: "https://github.com/vermaabhay734/Pi_Kart-django",
     webapp: "",
   },
   {
     id: 0,
-    title: "Podstream",
+    title: "TextUtils",
     date: "Apr 2023 - May 2023",
     description:
       "",
     image:
       "",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    tags: ["React Js", "HTML", "CSS", "JavaScript", "BootStrap", "Git"],
     category: "web app",
-    github: "",
-    webapp: "",
+    github: "https://github.com/vermaabhay734/textutils",
+    webapp: "https://vermaabhay734.github.io/textutils/",
     member: [
       {
         name: "Abhay Verma",
