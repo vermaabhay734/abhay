@@ -270,11 +270,11 @@ export const projects = [
   {
     id: 9,
     title: "Pi_Kart",
-    date: "Apr 2021",
+    date: "",
     description:
       "Pi-Kart Web app, powered by Python and Django, offers seamless e-commerce experience. Manage products, track orders, and handle feedback. Secure PayPal gateway for smooth transactions. Easy login, shopping, and logout for users.",
     image:
-      "https://raw.githubusercontent.com/vermaabhay734/abhay/master/src/images/Portfolio%20Snapshot/Contact.png",
+      "https://raw.githubusercontent.com/vermaabhay734/abhay/master/src/images/Projects/pikart.jpg",
     tags: [
       "Python",
       "Django",
@@ -286,38 +286,47 @@ export const projects = [
       "Postman",
       "Git"
     ],
-    category: "web app",
+    category: "website",
     github: "https://github.com/vermaabhay734/Pi_Kart-django",
     webapp: "",
   },
   {
-    id: 0,
+    id: 1,
     title: "TextUtils",
-    date: "Apr 2023 - May 2023",
+    date: "",
     description:
-      "",
+      "TextUtils is a React-based web app designed to help users analyze and manipulate text in various ways. The app offers a user-friendly interface and provides functionality for tasks such as converting text case, copying and clearing text, removing extra spaces, and counting words and characters. Additionally, it includes a feature to estimate the reading time for a given text. The app is versatile and can be utilized for a wide range of text analysis purposes.",
     image:
-      "",
+      "https://raw.githubusercontent.com/vermaabhay734/abhay/master/src/images/Projects/textutils.png",
     tags: ["React Js", "HTML", "CSS", "JavaScript", "BootStrap", "Git"],
     category: "web app",
     github: "https://github.com/vermaabhay734/textutils",
     webapp: "https://vermaabhay734.github.io/textutils/",
-    member: [
-      {
-        name: "Abhay Verma",
-        img: "",
-      },
-      {
-        name: "",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
+  },
+  
+  {
+    id: 2,
+    title: "Expense Tracker",
+    date: "",
+    description:
+      "Expense Tracker is a user-friendly web application built with React, designed to simplify expense management and tracking. With its intuitive interface, users can effortlessly manage their expenses according to their specific needs. Whether it's keeping track of daily spending, categorizing expenses, or setting budgets, Expense Tracker empowers users to take control of their finances efficiently. Stay organized, monitor your spending patterns, and make informed financial decisions with Expense Tracker.",
+    image:
+      "",
+    tags: [
+      "React Js",
+      "Node Js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
     ],
+    category: "web app",
+    github: "https://github.com/vermaabhay734/Expense-Tracker",
+    webapp: "",
   },
   {
-    id: 1,
-    title: "",
+    id: 3,
+    title: "Python Games",
     date: "Oct 2022 - Present",
     description:
       "",
