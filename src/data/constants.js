@@ -311,7 +311,7 @@ export const projects = [
     description:
       "Expense Tracker is a user-friendly web application built with React, designed to simplify expense management and tracking. With its intuitive interface, users can effortlessly manage their expenses according to their specific needs. Whether it's keeping track of daily spending, categorizing expenses, or setting budgets, Expense Tracker empowers users to take control of their finances efficiently. Stay organized, monitor your spending patterns, and make informed financial decisions with Expense Tracker.",
     image:
-      "",
+      "https://raw.githubusercontent.com/vermaabhay734/abhay/master/src/images/Projects/Expense-tracker.png",
     tags: [
       "React Js",
       "Node Js",
@@ -326,22 +326,18 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Python Games",
-    date: "Oct 2022 - Present",
+    title: "Gaming Zone",
+    date: "",
     description:
-      "",
+      "Gaming Zone is an interactive project that offers a diverse range of classic and entertaining games for users to enjoy. From nostalgic favorites like Snakes, Hangman, and Tic Tac Toe to more strategic challenges like Turtle Race and BlackJack, there's something for everyone. Whether you're testing your luck, sharpening your mind, or simply seeking a fun distraction, Gaming Zone provides an immersive gaming experience right at your fingertips. Get ready to embark on thrilling adventures and compete against friends or challenge yourself to beat your own high scores. Join us in the Gaming Zone for endless hours of entertainment and excitement!",
     image:
       "",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Python",
+      "Tkinter",
     ],
-    category: "",
-    github: "",
+    category: "games",
+    github: "https://github.com/vermaabhay734/python-games",
     webapp: "",
   },
 ];
