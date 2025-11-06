@@ -3,7 +3,7 @@ import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
 // import About from "./components/About";
 import Skills from "./components/Skills";
@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
+import FAQ from "./components/FAQ";
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -32,23 +33,28 @@ function App() {
   console.log(openModal)
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Router >
+      <Router basename="/abhay">
         <Navbar />
         <Body>
-          <HeroSection />
-          <Wrapper>
-            <Skills />
-            <Experience />
-          </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          <Wrapper>
-            <Education />
-            <Contact />
-          </Wrapper>
+          <Routes>
+            <Route path="/" element={
+              <>
+                <HeroSection />
+                <Wrapper>
+                  <Skills />
+                  <Experience />
+                  <Projects />
+                  <Education />
+                  <FAQ />
+                  <Contact />
+                </Wrapper>
+              </>
+            } />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/project/:id" element={<ProjectDetails />} />
+          </Routes>
           <Footer />
-          {openModal.state &&
-            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          }
         </Body>
       </Router>
     </ThemeProvider>
