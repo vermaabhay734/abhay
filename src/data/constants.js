@@ -2,7 +2,7 @@ export const Bio = {
   name: "Abhay Verma",
   roles: [
     "Full Stack Developer",
-    "Python Developer",
+    "Dotnet Developer",
     "UI/UX Designer",
     "Programmer",
   ],
@@ -13,7 +13,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1KMVciaKQicUtf06bQRJud3Am8hv6aE02/view?pli=1",
   linkedin: "https://www.linkedin.com/in/vermaabhay734/",
   insta: "https://www.instagram.com/abhay_verma143/",
-  twitter: "https://leetcode.com/vermaabhay734/",
+  //twitter: "https://leetcode.com/vermaabhay734/",
   facebook: "https://www.facebook.com/",
 };
 
@@ -71,9 +71,9 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "Redux",
+        name: "Angular Js",
         image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+          "https://angular.io/assets/images/logos/angular/angular.svg",
       },
       {
         name: "Django",
@@ -110,9 +110,9 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
-        name: "Management studio",
+        name: "Visual Studio",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/4/49/Applications-database.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Visual_Studio_Icon.svg/1024px-Visual_Studio_Icon.svg.png",
       },
       {
         name: "Git",
@@ -134,16 +134,16 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
-      {
-        name: "Netlify",
+      { name: "Heroku",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "AWS",
-        image:
-          "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
-      },
+          "https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg",
+      },  
+
+      //{
+      //  name: "AWS",
+      //  image:
+      //    "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+      //},
     ],
   },
   {
@@ -154,6 +154,10 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
+      {
+        name: "Management Studio",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/SQL_Server_Logo.png",},
       {
         name: "Postgresql",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
@@ -176,21 +180,31 @@ export const experiences = [
     company: "Cognizant",
     date: "Jan 2024 - Present",
     desc: [
-      "Collaborated with the Cloud Platform Engineering team to enhance DevOps practices.",
-      "Managing DevOps, and streamlining the process with automation." ,
-      "Implemented and maintained CI/CD pipelines using Jenkins for efficient and automated software delivery."
+      "1. Working on OCCM medical project using Angular, .NET Core APIs, and Python-based OCR services.",
+      "2. Handles both UI and API development, stored procedures, and Service related tasks.",
+      "3. Developed and optimized backend services using Python and .NET Core to enhance application performance and reliability.",
+      "4. Implemented OCR functionalities to extract and process data from medical documents, improving data accuracy and efficiency.",
+      "5. Worked on enhancing security measures within the application to protect sensitive medical data.",
+      "6. Participated in Agile ceremonies, contributing to sprint planning, daily stand-ups, and retrospectives to ensure project alignment and timely delivery.",
+      "7. Utilized version control systems like Git for efficient code management and collaboration among team members.",
+      "8. Deployed applications on cloud platforms, ensuring scalability and high availability of services.",
+      "9. Implemented unit tests and integration tests to ensure code quality and reliability.",
+      "10. Optimized database queries and improved data retrieval times, enhancing overall application performance.",
+      "11. Engaged in continuous learning and professional development to stay updated with the latest industry trends and technologies.",
+      "12. Participated in client meetings to gather requirements and provide technical insights for project improvements.",
+      "13. Analyzed and resolved technical issues, ensuring minimal downtime and optimal application performance.",
+      "14. Contributed to documentation efforts, creating technical guides and user manuals for end-users and developers.",
     ],
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      "CI/CD",
+      "DOTNET Core",
+      "C#",
+      "Angular",
+      "Python",
+      "OCR",
+      "SQL Server",
+      "MySQL",
+      "Git",
+      "Postman",
     ],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
@@ -201,9 +215,18 @@ export const experiences = [
     company: "Cognizant",
     date: "Nov 2022 - Dec 2023",
     desc: [
-      "Implemented JWT authentication to create secure login and sign-in pages protecting sensitive user information.",
-      "Implemented a password reset feature that sends a one-time password to the user’s mobile phone and email address using a third-party SMS and email delivery API.",
-      "Designed and implemented various front-end components using React, Bootstrap, and JavaScript."
+      "1. Implemented JWT authentication to create secure login and sign-in pages protecting sensitive user information.",
+      "2. Implemented a password reset feature that sends a one-time password to the user’s mobile phone and email address using a third-party SMS and email delivery API.",
+      "3. Designed and implemented various front-end components using React, Bootstrap, and JavaScript.",
+      "4. Developed RESTful APIs using Node.js to handle user authentication, data retrieval, and other backend functionalities.",
+      "5. Integrated third-party services and APIs to enhance application functionality and user experience.",
+      "6. Collaborated with cross-functional teams including designers, product managers, and other developers to deliver high-quality software solutions.",
+      "7. Participated in code reviews and provided constructive feedback to team members to ensure code quality and maintainability.",
+      "8. Utilized version control systems like Git for efficient code management and collaboration among team members.",
+      "9. Optimized database queries and improved data retrieval times, enhancing overall application performance.",
+      "10. Participated in client meetings to gather requirements and provide technical insights for project improvements.",
+      "11. Analyzed and resolved technical issues, ensuring minimal downtime and optimal application performance.",
+      "12. Contributed to documentation efforts, creating technical guides and user manuals for end-users and developers.",
     ],
     // skills: [
     //   "ReactJS",
@@ -223,9 +246,10 @@ export const experiences = [
     company: "Cognizant",
     date: "Nov 2021 - Nov 2022",
     desc: [
-      "Completed a 6-month Full Stack Development Training integrated DotNet with React",
-      "Developed Airline Management System during Training by following Agile Methodology.",
-      ""
+      "1. Completed a 6-month Full Stack Development Training integrated DotNet with React",
+      "2. Developed Airline Management System during Training by following Agile Methodology.",
+      "3. Collaborated with cross-functional teams to define and implement new features.",
+      "4. Participated in code reviews and contributed to team knowledge sharing."
   ],
     skills: [
       "ReactJS",
