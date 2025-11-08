@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/abhay/static/css/main.bf538fe7.css",
-    "main.js": "/abhay/static/js/main.540082b4.js",
+    "main.js": "/abhay/static/js/main.72e09b79.js",
     "static/media/HeroImage.jpg": "/abhay/static/media/HeroImage.2641c842c62e3b520570.jpg",
     "index.html": "/abhay/index.html",
     "main.bf538fe7.css.map": "/abhay/static/css/main.bf538fe7.css.map",
-    "main.540082b4.js.map": "/abhay/static/js/main.540082b4.js.map"
+    "main.72e09b79.js.map": "/abhay/static/js/main.72e09b79.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.540082b4.js"
+    "static/js/main.72e09b79.js"
   ]
 }
